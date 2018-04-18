@@ -1,10 +1,10 @@
 # Overview
 
 ## References
-- [https://github.com/GoogleCloudPlatform/nodejs-docs-samples/tree/master/functions/helloworld](github:helloword)
-- [https://cloud.google.com/functions/docs/emulator](GCP:Emulator_Docs)
-- [https://console.cloud.google.com/functions](GCP_Console:Functions)
-- [https://cloud.google.com/functions/docs/quickstart](GCP_Functions_Quickstart)
+- (github:helloword)[https://github.com/GoogleCloudPlatform/nodejs-docs-samples/tree/master/functions/helloworld]
+- (GCP:Emulator_Docs)[https://cloud.google.com/functions/docs/emulator]
+- (GCP_Console:Functions)[https://console.cloud.google.com/functions]
+- (GCP_Functions_Quickstart)[https://cloud.google.com/functions/docs/quickstart]
 
 # Setup local dev env
 
