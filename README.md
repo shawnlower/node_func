@@ -2,9 +2,9 @@
 
 ## References
 - [https://github.com/GoogleCloudPlatform/nodejs-docs-samples/tree/master/functions/helloworld](github:helloword)
-- [https://cloud.google.com/functions/docs/emulator](GCP: Emulator Docs)
-- [https://console.cloud.google.com/functions](GCP Console: Functions)
-- [https://cloud.google.com/functions/docs/quickstart](GCP Functions Quickstart)
+- [https://cloud.google.com/functions/docs/emulator](GCP:Emulator_Docs)
+- [https://console.cloud.google.com/functions](GCP_Console:Functions)
+- [https://cloud.google.com/functions/docs/quickstart](GCP_Functions_Quickstart)
 
 # Setup local dev env
 
@@ -43,6 +43,9 @@ $ gcloud functions deploy gcsTest --trigger-bucket --entry-point helloGCS
 
 ==
 GCS Test
+
+[https://cloud.google.com/functions/docs/calling/storage](GCS Storage Triggers)
+
 
 Setup bucket
 ```
