@@ -5,6 +5,8 @@
 - [GCP:Emulator_Docs](https://cloud.google.com/functions/docs/emulator)
 - [GCP_Console:Functions](https://console.cloud.google.com/functions)
 - [GCP_Functions_Quickstart](https://cloud.google.com/functions/docs/quickstart)
+- [github node API](https://github.com/googleapis/nodejs-storage/tree/master/samples)
+- [API Docs: Google Cloud Storage](https://cloud.google.com/nodejs/docs/reference/storage/1.6.x/)
 
 # Setup local dev env
 
@@ -35,10 +37,6 @@ Chrome: ctrl-shift-i, click the node icon, detach debugger, call (per above), ad
 
 ```
 $ gcloud functions deploy httpTest --trigger-http --entry-point indexGET
-```
-
-```
-$ gcloud functions deploy gcsTest --trigger-bucket --entry-point helloGCS
 ```
 
 ==
@@ -87,4 +85,11 @@ D      gcsTest  75397569573997  2018-04-18 04:26:59.793  Function execution star
 I      gcsTest  75397569573997  2018-04-18 04:26:59.975  File giphy.gif uploaded.
 D      gcsTest  75397569573997  2018-04-18 04:27:00.065  Function execution took 273 ms, finished with status: 'ok'
 
+```
+
+
+# Make dest bucket
+
+```
+gsutil mb -c regional -l us-central1 gs://gcs_dest1
 ```
