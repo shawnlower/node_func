@@ -1,10 +1,10 @@
 # Overview
 
 ## References
-- (github:helloword)[https://github.com/GoogleCloudPlatform/nodejs-docs-samples/tree/master/functions/helloworld]
-- (GCP:Emulator_Docs)[https://cloud.google.com/functions/docs/emulator]
-- (GCP_Console:Functions)[https://console.cloud.google.com/functions]
-- (GCP_Functions_Quickstart)[https://cloud.google.com/functions/docs/quickstart]
+- [github:helloword](https://github.com/GoogleCloudPlatform/nodejs-docs-samples/tree/master/functions/helloworld)
+- [GCP:Emulator_Docs](https://cloud.google.com/functions/docs/emulator)
+- [GCP_Console:Functions](https://console.cloud.google.com/functions)
+- [GCP_Functions_Quickstart](https://cloud.google.com/functions/docs/quickstart)
 
 # Setup local dev env
 
@@ -44,7 +44,7 @@ $ gcloud functions deploy gcsTest --trigger-bucket --entry-point helloGCS
 ==
 GCS Test
 
-[https://cloud.google.com/functions/docs/calling/storage](GCS Storage Triggers)
+[GCS Storage Triggers](https://cloud.google.com/functions/docs/calling/storage)
 
 
 Setup bucket
@@ -61,6 +61,7 @@ $ gcloud functions deploy gcsTest
 ```
 
 
+```
 [shawn@nine10 node]$ gcloud functions list
 NAME        STATUS  TRIGGER        REGION
 function-1  ACTIVE  HTTP Trigger   us-central1
@@ -86,4 +87,4 @@ D      gcsTest  75397569573997  2018-04-18 04:26:59.793  Function execution star
 I      gcsTest  75397569573997  2018-04-18 04:26:59.975  File giphy.gif uploaded.
 D      gcsTest  75397569573997  2018-04-18 04:27:00.065  Function execution took 273 ms, finished with status: 'ok'
 
-
+```
